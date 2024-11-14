@@ -13,7 +13,7 @@ API_KEY = "qhxiu7rznptjzbonbv*bhxJvu"
 # Set up logging with TimedRotatingFileHandler
 log_filename = "render_script.log"
 logging.basicConfig(
-    level=logging.DEBUG,  # Log level can be adjusted: DEBUG, INFO, WARNING, ERROR, CRITICAL
+    level=logging.DEBUG, 
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
@@ -90,11 +90,17 @@ def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_
     config_name = config_name.replace("\\", "/")
     
     # Ensure we are referencing the correct path and the config file is correctly added
+    # command = (
+    #     f'"{unreal_editor_path}" "{uproject_path}" -nullrhi -silent -unattended '
+    #     f'-MoviePipelineConfig="{config_name}" '
+    #     f'-NoLoadingScreen -log'
+    # )
     command = (
         f'"{unreal_editor_path}" "{uproject_path}" -game '
         f'-MoviePipelineConfig="{config_name}" '
-        f'{render_args}'
+        f'-NoLoadingScreen -log'
     )
+    
     
     logging.info(f"Generated command: {command}")
     print ("command context:", command)
