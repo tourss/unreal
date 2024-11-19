@@ -601,3 +601,951 @@ Processing: C:/Users/MSI/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRe
 Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue_2" -RenderOffscreen -log
 Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue_2" -RenderOffscreen -log
 Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\MSI\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Return code: 1
+Output:
+None
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -NoLoadingScreen -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -NoLoadingScreen -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 126.45 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 130.49 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=3840 -ResY=2160
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=3840 -ResY=2160
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=3840 -ResY=2160
+Execution time for execute_cmd_command: 126.95 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=3840 -ResY=2160
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=3840 -ResY=2160
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=3840 -ResY=2160
+Execution time for execute_cmd_command: 122.97 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -forceRes=3840x2160
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -forceRes=3840x2160
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -forceRes=3840x2160
+Execution time for execute_cmd_command: 158.26 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -forceRes=3840x2160
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -forceRes=3840x2160
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -forceRes=3840x2160
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -forceRes=3840x2160 -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -forceRes=3840x2160 -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -forceRes=3840x2160 -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 15.88 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 17.51 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 125.72 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 139.84 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 120.75 seconds.
+Script execution finished
+Starting script execution
+Using resolution: 3840x2160
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -ResX=3840 -ResY=2160 -r.SetRes=3840x2160 -OutputResolution=3840x2160 -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Using resolution: 3840x2160
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -ResX=3840 -ResY=2160 -r.SetRes=3840x2160 -OutputResolution=3840x2160 -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 163.08 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -ResX=3840 -ResY=2160 -r.SetRes=3840x2160 -OutputResolution=3840x2160 -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Using resolution: 3840x2160
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -ResX=3840 -ResY=2160 -r.SetRes=3840x2160 -OutputResolution=3840x2160 -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 157.77 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 96.86 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -forceRes=3840x2160 -RenderOffscreen -NoSplash -log
+Execution time for execute_cmd_command: 130.60 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Return code: 3
+Output:
+None
+Execution time for execute_cmd_command: 13.67 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Return code: 3
+Output:
+None
+Execution time for execute_cmd_command: 13.50 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/myRenderQueue -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/myRenderQueue -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/myRenderQueue -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/myRenderQueue -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Return code: 3
+Output:
+None
+Execution time for execute_cmd_command: 13.29 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/test/myRenderQueue_2 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/test/myRenderQueue_2 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/test/myRenderQueue_2 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Cinematics/Queue/test/myRenderQueue_2 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Return code: 3
+Output:
+None
+Execution time for execute_cmd_command: 13.40 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Execution time for execute_cmd_command: 22.33 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Execution time for execute_cmd_command: 14.48 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Return code: 3
+Output:
+None
+Execution time for execute_cmd_command: 13.35 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Error occurred while executing the command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor -ExecutorPythonClass=/Game/Python.render_test_3 -windowed -resx=1280 -resy=720 -log -notexturestreaming
+Return code: 3
+Output:
+None
+Execution time for execute_cmd_command: 13.57 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Execution time for execute_cmd_command: 222.65 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Execution time for execute_cmd_command: 98.92 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log 
+Execution time for execute_cmd_command: 124.81 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1920 -ResY=1080 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1920 -ResY=1080 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1920 -ResY=1080 
+Execution time for execute_cmd_command: 127.23 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1920 -ResY=1080 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1920 -ResY=1080 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1920 -ResY=1080 
+Execution time for execute_cmd_command: 109.55 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Execution time for execute_cmd_command: 132.70 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -ResX=1080 -ResY=720 
+Execution time for execute_cmd_command: 116.40 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Execution time for execute_cmd_command: 139.99 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Execution time for execute_cmd_command: 110.90 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Execution time for execute_cmd_command: 101.42 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Execution time for execute_cmd_command: 119.86 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Execution time for execute_cmd_command: 116.33 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\myRenderQueue.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/myRenderQueue" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\myRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\Admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -MoviePipelineConfig="/Game/Cinematics/Queue/test/myRenderQueue_2" -RenderOffscreen -NoSplash -log -vf scale=1080x720 
+Script execution finished
