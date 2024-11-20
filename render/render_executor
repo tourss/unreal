@@ -101,7 +101,9 @@ class RenderExecutor:
         command = (
             f'"{unreal_editor_path}" "{uproject_path}" -game '
             f'-MoviePipelineConfig="{config_name}" '
-            f'-RenderOffscreen -NoSplash -log '
+            f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor '
+            f'-ExecutorPythonClass=/Engine/PythonTypes.render_test_3 '
+            f'-RenderOffscreen -NoSplash -resx=1080 -resy=720 -log'
         )
         
         logging.info(f"Generated command: {command}")
