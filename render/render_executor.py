@@ -98,14 +98,37 @@ class RenderExecutor:
         config_name = config_name.replace("\\", "/")
         
         # Ensure we are referencing the correct path and the config file is correctly added
+        # command = (
+        #     f'"{unreal_editor_path}" "{uproject_path}" -game '
+        #     f'-MoviePipelineConfig="{config_name}" '
+        #     f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor '
+        #     f'-ExecutorPythonClass=/Engine/PythonTypes.render_test_3 '
+        #     f'-RenderOffscreen -NoSplash -resx=1280 -resy=720 -log'
+        # )
+
+        # command = (
+        #     f'"{unreal_editor_path}" '
+        #     f'"{uproject_path}" '
+        #     f'-game '
+        #     f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor '
+        #     f'-MoviePipelineConfig="{config_name}" '
+        #     f'-ExecutorPythonClass=/Engine/Content/Python.MoviePipelineExampleRuntimeExecutor '
+        #     # f'-LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" '
+        #     f'-windowed -resx=1280 -resy=720 -log'
+        # )
+        # )C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\MovieScene\MovieRenderPipeline\Source\MovieRenderPipelineCore\Private
+
         command = (
-            f'"{unreal_editor_path}" "{uproject_path}" -game '
-            f'-MoviePipelineConfig="{config_name}" '
+            f'"{unreal_editor_path}" '
+            f'"{uproject_path}" '
+            f'-game '
             f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor '
-            f'-ExecutorPythonClass=/Engine/PythonTypes.render_executor '
-            f'-RenderOffscreen -NoSplash -resx=1280 -resy=720 -log'
+            f'-MoviePipelineConfig="{config_name}" '
+            # f'-ExecutorPythonClass=/Engine/PythonTypes.render_executor '
+            f'-windowed -resx=1280 -resy=720 -log'
         )
-        
+
+
         logging.info(f"Generated command: {command}")
         return command
     
@@ -149,7 +172,7 @@ class RenderExecutor:
                     logging.info(f"Generated CMD: {cmd_command}")
                     logging.info('*' * 50)
                     print("CMD COMMAND:", cmd_command)
-                    # self.execute_cmd_command(cmd_command)
+                    self.execute_cmd_command(cmd_command)
             else:
                 logging.warning(f"No .uasset files found in {movie_pipeline_config}")
         else:

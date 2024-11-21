@@ -102,18 +102,23 @@ def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_
     # Replace backslashes with forward slashes for compatibility
     config_name = config_name.replace("\\", "/")
     
-    # Ensure we are referencing the correct path and the config file is correctly added
+    # Insert the additional local args like '-vf scale=1080x720'
+    # Here we will ensure the `render_args` is passed and added correctly
+    # command = (
+    #     f'"{unreal_editor_path}" "{uproject_path}" -game '
+    #     f'-MoviePipelineConfig="{config_name}" '
+    #     f'-RenderOffscreen -NoSplash -log '
+    #     f'{render_args}'  # Add the additional arguments here
+    # )
     command = (
-        f'"{unreal_editor_path}" "{uproject_path}" '
-        f'-game '
-        # f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor '
-        # f'-ExecutorPythonClass=/Game/Python.MyExecutor '
-        f'-MoviePipelineConfig="{config_name}" '
-        f'-RenderOffscreen -ResX=1280 -ResY=720 '
-        f'-NoSplash -log '
-    )
+    f'"{unreal_editor_path}" "{uproject_path}" -game '
+    f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor" '
+    f'-ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor '
+    f'-RenderOffscreen -NoSplash -resx=1080 -resy720 -log'
+)
     
     logging.info(f"Generated command: {command}")
+    print("command context:", command)
     return command
 
 @log_execution_time
@@ -143,8 +148,11 @@ def execute():
     if unreal_editor_path is None:
         return
 
+    # Set the additional args directly (for example, -vf scale=1080x720)
+    render_args = "-vf scale=1080x720"  # You can hardcode this here or pass it dynamically
+
     # Task ID
-    task_id = 5849  # 실제 태스크 ID로 변경
+    task_id = 5849  # Update with actual task ID
 
     uproject_path, movie_pipeline_config = get_task_info(sg, task_id)
 
@@ -157,9 +165,8 @@ def execute():
                 logging.info('*' * 50)
                 logging.info(f"Processing: {config_file}")
                 logging.info(f"Generated CMD: {cmd_command}")
-                logging.info('*' * 50)
-                print ("CMD COMMAND:", cmd_command)
-                execute_cmd_command(cmd_command)
+                print("CMD COMMAND:", cmd_command)
+                # execute_cmd_command(cmd_command)
         else:
             logging.warning(f"No .uasset files found in {movie_pipeline_config}")
     else:
