@@ -106,10 +106,8 @@ def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_
     command = (
         f'"{unreal_editor_path}" "{uproject_path}" '
         f'-game '
-        # f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor '
-        # f'-ExecutorPythonClass=/Game/Python.MyExecutor '
         f'-MoviePipelineConfig="{config_name}" '
-        f'-RenderOffscreen -ResX=1280 -ResY=720 '
+        f'-RenderOffscreen -resX=1280 -resY=720 '   # 커맨드의 res 옵션이 MoviePipelineConfig의 설정을 덮어쓰지 못하고 있음
         f'-NoSplash -log '
     )
     
