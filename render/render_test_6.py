@@ -25,7 +25,7 @@ handler = handlers.TimedRotatingFileHandler(
 logging.getLogger().addHandler(handler)
 
 def log_execution_time(func):
-    #Decorator to log the execution time of a function
+    # Decorator to log the execution time of a function
     def wrapper(*args, **kwargs):
         start_time = time.time()
         result = func(*args, **kwargs)
@@ -94,11 +94,9 @@ def get_uasset_files(movie_pipeline_config):
 
 def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args):
     # Get the correct relative path for MoviePipelineConfig
-    config_path = config_file.replace("C:/Users/admin/Desktop/Project/pipe_test/Content/", "/Game/")
-    
+    config_path = config_file.replace("C:/Users/admin/Desktop/Project/pipe_test/Content/", "/Game/")    
     # Remove the .uasset extension from the Unreal path
     config_name = os.path.splitext(config_path)[0]
-
     # Replace backslashes with forward slashes for compatibility
     config_name = config_name.replace("\\", "/")
     
@@ -116,6 +114,13 @@ def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_
     
     logging.info(f"Generated command: {command}")
     return command
+
+# New function to generate FFmpeg command
+def generate_ffmpeg_command(video_inputs, audio_inputs, output_path, audio_codec, video_codec, quality):
+    # FFmpeg command for processing video and audio
+    cmd_command = f'-hide_banner -y -loglevel error -i "{video_inputs}" {audio_inputs} {quality} -acodec {audio_codec} -vcodec {video_codec} "{output_path}"'
+    logging.info(f"Generated FFmpeg command: {cmd_command}")
+    return cmd_command
 
 @log_execution_time
 def execute_cmd_command(cmd_command):
@@ -159,8 +164,19 @@ def execute():
                 logging.info(f"Processing: {config_file}")
                 logging.info(f"Generated CMD: {cmd_command}")
                 logging.info('*' * 50)
-                print ("CMD COMMAND:", cmd_command)
+                print("CMD COMMAND:", cmd_command)
                 execute_cmd_command(cmd_command)
+                
+                # Add FFmpeg processing for video and audio after Unreal render is completed
+                video_inputs = "C:/Users/admin/Desktop/video.mp4"
+                audio_inputs = "C:/Users/admin/Desktop/audio.mp3"
+                output_path = "C:/Users/admin/Desktop/output.mp4"
+                audio_codec = "aac"
+                video_codec = "libx264"
+                quality = "-crf 16"
+
+                ffmpeg_command = generate_ffmpeg_command(video_inputs, audio_inputs, output_path, audio_codec, video_codec, quality)
+                execute_cmd_command(ffmpeg_command)
         else:
             logging.warning(f"No .uasset files found in {movie_pipeline_config}")
     else:

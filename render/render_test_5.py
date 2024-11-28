@@ -47,7 +47,7 @@ def get_software_info(sg, software_name):
     software = sg.find_one(
         "Software",
         [["code", "is", software_name]],
-        ["windows_path", "windows_args"]
+        ["windows_path", "windows_args"] #현재 windows_args는 쓰지 않고, 직접 입력 중
     )
     if software is not None:
         logging.info(f"Found software: {software_name}")
@@ -92,33 +92,40 @@ def get_uasset_files(movie_pipeline_config):
     
     return config_files
 
-def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args):
+def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args, overrides=None):
     # Get the correct relative path for MoviePipelineConfig
     config_path = config_file.replace("C:/Users/admin/Desktop/Project/pipe_test/Content/", "/Game/")
-    
-    # Remove the .uasset extension from the Unreal path
     config_name = os.path.splitext(config_path)[0]
-
-    # Replace backslashes with forward slashes for compatibility
-    config_name = config_name.replace("\\", "/")
+    config_name = config_name.replace("\\", "/")  # Replace backslashes for compatibility
     
-    # Insert the additional local args like '-vf scale=1080x720'
-    # Here we will ensure the `render_args` is passed and added correctly
-    # command = (
-    #     f'"{unreal_editor_path}" "{uproject_path}" -game '
-    #     f'-MoviePipelineConfig="{config_name}" '
-    #     f'-RenderOffscreen -NoSplash -log '
-    #     f'{render_args}'  # Add the additional arguments here
-    # )
+    # 기본 명령어 설정
     command = (
-    f'"{unreal_editor_path}" "{uproject_path}" -game '
-    f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor" '
-    f'-ExecutorPythonClass=/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor '
-    f'-RenderOffscreen -NoSplash -resx=1080 -resy720 -log'
-)
+        f'"{unreal_editor_path}" '
+        f'"{uproject_path}" '
+        f'-game '
+        f'-NoSplash ' 
+        f'-log '
+        f'-windowed '
+        f'-ForceRes '
+        f'-NoTextureStreaming '
+        f'-MoviePipelineConfig="{config_name}" '
+    )
     
-    logging.info(f"Generated command: {command}")
-    print("command context:", command)
+    # 오버라이드 설정 추가
+    if overrides:
+        if 'output_path' in overrides:
+            command += f'-override_config="MoviePipeline.OutputPath={overrides["output_path"]}" '
+        if 'resolution' in overrides:
+            width, height = overrides['resolution']
+            command += f'-override_config="MoviePipeline.OutputResolution=(X={width},Y={height})" '
+        if 'frame_rate' in overrides:
+            command += f'-override_config="MoviePipeline.TargetFPS={overrides["frame_rate"]}" '
+        if 'samples_per_pixel' in overrides:
+            command += f'-override_config="MoviePipeline.SamplesPerPixel={overrides["samples_per_pixel"]}" '
+        if 'output_format' in overrides:
+            command += f'-override_config="MoviePipeline.OutputFormat={overrides["output_format"]}" '
+
+    logging.info(f"Generated command with overrides: {command}")
     return command
 
 @log_execution_time
@@ -148,25 +155,32 @@ def execute():
     if unreal_editor_path is None:
         return
 
-    # Set the additional args directly (for example, -vf scale=1080x720)
-    render_args = "-vf scale=1080x720"  # You can hardcode this here or pass it dynamically
-
     # Task ID
-    task_id = 5849  # Update with actual task ID
+    task_id = 5849  # 실제 태스크 ID로 변경
 
     uproject_path, movie_pipeline_config = get_task_info(sg, task_id)
+
+    # 오버라이드 설정 정의
+    overrides = {
+        'output_path': r"C:\Users\admin\Desktop\Project\pipe_test\Saved\MovieRenders\render_output",
+        'resolution': (1920, 1080),
+        'frame_rate': 24.0,
+        'samples_per_pixel': 64,
+        'output_format': "EXR"
+    }
 
     if uproject_path and movie_pipeline_config:
         config_files = get_uasset_files(movie_pipeline_config)
 
         if config_files:
             for config_file in config_files:
-                cmd_command = generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args)
+                cmd_command = generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args, overrides)
                 logging.info('*' * 50)
                 logging.info(f"Processing: {config_file}")
                 logging.info(f"Generated CMD: {cmd_command}")
+                logging.info('*' * 50)
                 print("CMD COMMAND:", cmd_command)
-                # execute_cmd_command(cmd_command)
+                execute_cmd_command(cmd_command)
         else:
             logging.warning(f"No .uasset files found in {movie_pipeline_config}")
     else:

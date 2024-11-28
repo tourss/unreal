@@ -86,10 +86,11 @@ class CustomMoviePipelineExecutor(unreal.MoviePipelinePythonHostExecutor):
                 cmd_command = (
                     f'"{editor_path}" "{uproject_path}" '
                     f'-game '
+                    f'-NoSplash -log '
                     f'-MoviePipelineLocalExecutorClass=/Script/MovieRenderPipelineCore.MoviePipelinePythonHostExecutor '
                     f'-ExecutorPythonClass=/Game/Python/custom_executor.CustomMoviePipelineExecutor '
-                    f'-RenderOffscreen -resX=1920 -resY=1080 '
-                    f'-NoSplash -log '
+                    f'-RenderOffscreen '
+                    f' -resX=1280 -resY=720 '
                 )
 
                 logger.info(f"Generated Command: {cmd_command}")
@@ -119,5 +120,18 @@ class CustomMoviePipelineExecutor(unreal.MoviePipelinePythonHostExecutor):
         Start the render process when executed in the Movie Render Queue.
         """
         logger.info("Starting custom render process via CustomMoviePipelineExecutor.start_render")
-        movie_pipeline_config_path = "/Game/Path/To/Your/MoviePipelineConfig"
+        movie_pipeline_config_path = "/Game/Cinematics/Queue"
         self.execute_rendering(movie_pipeline_config_path)
+
+    def execute_delayed(self):
+        """
+        This function will execute tasks that are delayed or need to be executed later.
+        """
+        logger.info("Executing delayed tasks.")
+        try:
+            # Example: You can implement specific tasks here, like waiting for a condition or another process.
+            # For now, we simply log the task execution.
+            self.start_render()  # Example delayed task: start render process
+        except Exception as e:
+            logger.error(f"An error occurred during delayed execution: {e}")
+            traceback.print_exc()
