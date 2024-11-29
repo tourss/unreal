@@ -6,26 +6,26 @@ import subprocess
 import traceback
 import time
 
-# ShotGrid server URL and certification info
+# ShotGrid 서버 URL과 인증 정보
 SERVER_URL = "https://jhworld.shotgrid.autodesk.com"
 SCRIPT_NAME = "hyo"
 API_KEY = "qhxiu7rznptjzbonbv*bhxJvu"
 
-# Set up logging with TimedRotatingFileHandler
+# 로깅 설정
 log_filename = "render_script.log"
 logging.basicConfig(
     level=logging.DEBUG, 
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-# Create TimedRotatingFileHandler to rotate log files every 15 days
+# TimedRotatingFileHandler로 15일마다 로그 파일 회전
 handler = handlers.TimedRotatingFileHandler(
     log_filename, when="D", interval=15, backupCount=150
 )
 logging.getLogger().addHandler(handler)
 
 def log_execution_time(func):
-    #Decorator to log the execution time of a function
+    # 함수 실행 시간을 로그로 기록하는 데코레이터
     def wrapper(*args, **kwargs):
         start_time = time.time()
         result = func(*args, **kwargs)
@@ -37,12 +37,12 @@ def log_execution_time(func):
     return wrapper
 
 def create_shotgun_session(server_url, script_name, api_key):
-    # Create ShotGrid API session
+    # ShotGrid API 세션 생성
     logging.info(f"Creating Shotgun session with script: {script_name}")
     return Shotgun(server_url, script_name, api_key)
 
 def get_software_info(sg, software_name):
-    # Get ShotGrid software entity and field info
+    # ShotGrid에서 소프트웨어 정보 가져오기
     logging.info(f"Fetching software info for {software_name}")
     software = sg.find_one(
         "Software",
@@ -57,7 +57,7 @@ def get_software_info(sg, software_name):
         return None, None
 
 def get_task_info(sg, task_id):
-    # Get task info
+    # Task 정보 가져오기
     logging.info(f"Fetching task info for task ID: {task_id}")
     task = sg.find_one(
         "Task",
@@ -74,7 +74,7 @@ def get_task_info(sg, task_id):
         return None, None
 
 def get_uasset_files(movie_pipeline_config):
-    # Get all .uasset files in the directory and subdirectories
+    # .uasset 파일을 찾아서 리스트로 반환
     movie_pipeline_directory = movie_pipeline_config.replace("/Game/", "C:/Users/admin/Desktop/Project/pipe_test/Content/") 
     config_files = []
 
@@ -86,64 +86,69 @@ def get_uasset_files(movie_pipeline_config):
                     config_files.append(os.path.join(root, f))
                     logging.info(f"Found .uasset: {os.path.join(root, f)}")
     for config_file in config_files:
-        print ("config file context:", config_file)
+        print("config file context:", config_file)
     else:
         logging.error(f"Error: Directory {movie_pipeline_directory} does not exist.")
     
     return config_files
 
 def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args):
-    # Get the correct relative path for MoviePipelineConfig
+    # MoviePipelineConfig의 상대 경로 가져오기
     config_path = config_file.replace("C:/Users/admin/Desktop/Project/pipe_test/Content/", "/Game/")
     
-    # Remove the .uasset extension from the Unreal path
+    # .uasset 확장자를 제거하고 Unreal 경로로 설정
     config_name = os.path.splitext(config_path)[0]
 
-    # Replace backslashes with forward slashes for compatibility
+    # 백슬래시를 슬래시로 바꾸어 호환성 확보
     config_name = config_name.replace("\\", "/")
     
-    # Unreal Engine 명령어
-    unreal_command = (
-        f'{unreal_editor_path} '
-        f'{uproject_path} '
+    # job_name 생성 (config 파일 이름을 사용)
+    job_name = f"Render_{os.path.basename(config_file)}"
+
+    output_path = "C:\\Users\\admin\\Desktop\\render_output"
+
+    # MoviePipelineConfig을 정확히 참조하도록 커맨드 생성
+    command = (
+        f'"{unreal_editor_path}" '
+        f'"{uproject_path}" '
         f'-game '
         f'-NoSplash ' 
         f'-log '
         f'-RenderOffscreen '
         f'-NoTextureStreaming '
-        f'-MoviePipelineConfig={config_name} '
+        f'-MoviePipelineConfig="{config_name}" '
     )
 
-    # FFmpeg 명령어
-    ffmpeg_command = (
-        f'ffmpeg -i "C:\\Users\\admin\\Desktop\\Project\\pipe_test\\Saved\\MovieRenders\\test_1\\His_Sal_Seq_01.%04d.jpg" '
-        f'-s 1280x720 '
-        f'-vcodec libx264 '
-        f'-crf 16 '
-        f'"C:\\Users\\admin\\Desktop\\Project\\pipe_test\\Saved\\MovieRenders\\test_1\\His_Sal_Seq_01.mp4"'
-    )
+    logging.info(f"Generated command: {command}")
+    return job_name, command
 
+def submit_to_deadline(job_name, command):
+    """데드라인에 렌더 작업 제출"""
+    deadline_command = [
+        "deadlinecommand",
+        "-SubmitCommandLineJob",
+        f"-name {job_name}",
+        f"-executable {command}"
+    ]
     try:
-        # Unreal Engine 명령어 실행
-        print("Starting Unreal render...")
-        subprocess.run(unreal_command, check=True, shell=True)
-        print("Unreal render completed successfully.")
-
-        # FFmpeg 명령어 실행
-        print("Starting FFmpeg encoding...")
-        subprocess.run(ffmpeg_command, check=True, shell=True)
-        print("FFmpeg video encoding completed successfully.")
-
+        result = subprocess.run(deadline_command, capture_output=True, text=True, check=True)
+        logging.info("데드라인 작업 제출 성공")
+        return result.stdout
     except subprocess.CalledProcessError as e:
-        print(f"Error executing command: {e}")
-        print(f"Command output: {e.output}")
+        logging.error("데드라인 작업 제출 실패")
+        logging.error(e.stderr)
+        return None
 
 @log_execution_time
-def execute_cmd_command(cmd_command):
-    # Execute CMD command
+def execute_cmd_command(job_name, cmd_command):
+    # CMD 명령어 실행 및 데드라인에 작업 제출
     try:
         logging.info(f"Executing command: {cmd_command}")
         subprocess.run(cmd_command, shell=True, check=True)  # check=True will raise an exception if the command fails
+
+        # 데드라인에 작업 제출
+        logging.info(f"Submitting job '{job_name}' to Deadline")
+        submit_to_deadline(job_name, cmd_command)  # 데드라인에 작업 제출
     except subprocess.CalledProcessError as e:
         logging.error(f"Error occurred while executing the command: {cmd_command}")
         logging.error(f"Return code: {e.returncode}")
@@ -175,13 +180,13 @@ def execute():
 
         if config_files:
             for config_file in config_files:
-                cmd_command = generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args)
+                job_name, cmd_command = generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_args)
                 logging.info('*' * 50)
                 logging.info(f"Processing: {config_file}")
                 logging.info(f"Generated CMD: {cmd_command}")
                 logging.info('*' * 50)
-                print ("CMD COMMAND:", cmd_command)
-                execute_cmd_command(cmd_command)
+                print("CMD COMMAND:", cmd_command)
+                execute_cmd_command(job_name, cmd_command)
         else:
             logging.warning(f"No .uasset files found in {movie_pipeline_config}")
     else:

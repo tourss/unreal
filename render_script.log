@@ -3104,3 +3104,609 @@ Executing command: None
 An unexpected error occurred: 'NoneType' object is not iterable
 Execution time for execute_cmd_command: 0.00 seconds.
 Script execution finished
+2024-11-29 11:28:30,906 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 11:28:31,973 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.07ÃÊ
+2024-11-29 11:28:31,974 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 11:28:32,306 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 11:28:32,308 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.33ÃÊ
+2024-11-29 11:28:32,312 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Cinematics/Queue/MyRenderQueue_1" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:39:22,881 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 11:39:23,960 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.08ÃÊ
+2024-11-29 11:39:23,961 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 11:39:24,284 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 11:39:24,284 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.32ÃÊ
+2024-11-29 11:39:24,285 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 11:39:24,308 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 11:39:24,331 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:44:06,704 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 11:44:07,769 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.07ÃÊ
+2024-11-29 11:44:07,770 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 11:44:08,107 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 11:44:08,108 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.34ÃÊ
+2024-11-29 11:44:08,108 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 11:44:08,121 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 11:44:08,131 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:44:26,482 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 11:44:27,533 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.05ÃÊ
+2024-11-29 11:44:27,533 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 11:44:27,867 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 11:44:27,868 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.34ÃÊ
+2024-11-29 11:44:27,868 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 11:44:27,880 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 11:44:27,890 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:44:27,891 - INFO - µ¥µå¶óÀÎ ÀÛ¾÷ Á¦Ãâ ¼º°ø
+2024-11-29 11:44:27,892 - INFO - submit_to_deadline ½ÇÇà ½Ã°£: 0.00ÃÊ
+2024-11-29 11:44:27,892 - INFO - execute_render_task ½ÇÇà ½Ã°£: 0.36ÃÊ
+2024-11-29 11:48:38,752 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 11:48:39,816 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.06ÃÊ
+2024-11-29 11:48:39,816 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 11:48:40,125 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 11:48:40,125 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.31ÃÊ
+2024-11-29 11:48:40,126 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 11:48:40,138 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 11:48:40,148 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:48:40,149 - INFO - ·»´õ ¸í·É¾î ½ÇÇà Áß: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:50:19,374 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 11:50:20,427 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.05ÃÊ
+2024-11-29 11:50:20,428 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 11:50:20,723 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 11:50:20,724 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.30ÃÊ
+2024-11-29 11:50:20,724 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 11:50:20,740 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 11:50:20,751 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:50:20,751 - INFO - ·»´õ ¸í·É¾î ½ÇÇà Áß: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -log
+2024-11-29 11:50:35,012 - INFO - ·»´õ¸µ ÀÛ¾÷ ¿Ï·á.
+2024-11-29 11:50:35,013 - INFO - Ãâ·Â: 
+2024-11-29 11:50:35,013 - ERROR - ¿À·ù: 
+2024-11-29 11:50:35,014 - INFO - execute_render_task ½ÇÇà ½Ã°£: 14.59ÃÊ
+2024-11-29 12:01:04,785 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 12:01:05,880 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.09ÃÊ
+2024-11-29 12:01:05,880 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 12:01:06,199 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 12:01:06,199 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.32ÃÊ
+2024-11-29 12:01:06,200 - INFO - Searching for .uasset files containing 'Seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:01:06,225 - ERROR - ·»´õ¸µ¿¡ »ç¿ëÇÒ .uasset ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù.
+2024-11-29 12:01:06,226 - INFO - execute_render_task ½ÇÇà ½Ã°£: 0.35ÃÊ
+2024-11-29 12:01:49,917 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 12:01:50,974 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.06ÃÊ
+2024-11-29 12:01:50,974 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 12:01:51,279 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 12:01:51,280 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.31ÃÊ
+2024-11-29 12:01:51,281 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:01:51,300 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:01:51,313 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log
+2024-11-29 12:01:51,314 - INFO - ·»´õ ¸í·É¾î ½ÇÇà Áß: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log
+2024-11-29 12:02:02,934 - INFO - ·»´õ¸µ ÀÛ¾÷ ¿Ï·á.
+2024-11-29 12:02:02,935 - INFO - Ãâ·Â: 
+2024-11-29 12:02:02,935 - ERROR - ¿À·ù: 
+2024-11-29 12:02:02,935 - INFO - execute_render_task ½ÇÇà ½Ã°£: 11.96ÃÊ
+2024-11-29 12:04:30,158 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 12:04:31,236 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.08ÃÊ
+2024-11-29 12:04:31,236 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 12:04:31,552 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 12:04:31,553 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.32ÃÊ
+2024-11-29 12:04:31,555 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:04:31,588 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:04:31,598 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log
+2024-11-29 12:04:31,599 - INFO - ·»´õ ¸í·É¾î ½ÇÇà Áß: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log
+2024-11-29 12:04:43,224 - INFO - ·»´õ¸µ ÀÛ¾÷ ¿Ï·á.
+2024-11-29 12:04:43,224 - INFO - Ãâ·Â: 
+2024-11-29 12:04:43,225 - ERROR - ¿À·ù: 
+2024-11-29 12:04:43,225 - INFO - execute_render_task ½ÇÇà ½Ã°£: 11.99ÃÊ
+2024-11-29 12:06:55,832 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 12:06:56,856 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.02ì´ˆ
+2024-11-29 12:06:56,857 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 12:06:57,168 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 12:06:57,169 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.31ì´ˆ
+2024-11-29 12:06:57,170 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:06:57,192 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:06:57,207 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log
+2024-11-29 12:06:57,207 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log
+2024-11-29 12:07:08,876 - INFO - ë Œë”ë§ ì‘ì—… ì™„ë£Œ.
+2024-11-29 12:07:08,877 - INFO - ì¶œë ¥: 
+2024-11-29 12:07:08,877 - ERROR - ì˜¤ë¥˜: 
+2024-11-29 12:07:08,878 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 12.02ì´ˆ
+2024-11-29 12:10:34,894 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 12:10:35,920 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.03ÃÊ
+2024-11-29 12:10:35,920 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 12:10:36,236 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 12:10:36,238 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.32ÃÊ
+2024-11-29 12:10:36,239 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:10:36,264 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:/Users/admin/Desktop/render_output/render_log.txt"
+2024-11-29 12:10:36,265 - INFO - ·»´õ ¸í·É¾î ½ÇÇà Áß: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:/Users/admin/Desktop/render_output/render_log.txt"
+2024-11-29 12:10:46,203 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 12:10:47,233 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.03ÃÊ
+2024-11-29 12:10:47,234 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 12:10:47,552 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 12:10:47,553 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.32ÃÊ
+2024-11-29 12:10:47,553 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:10:47,574 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -verbose -log="C:/Users/admin/Desktop/render_output/render_log.txt"
+2024-11-29 12:10:47,574 - INFO - ·»´õ ¸í·É¾î ½ÇÇà Áß: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="C:/Users/admin/Desktop/Project/pipe_test/Content/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -verbose -log="C:/Users/admin/Desktop/render_output/render_log.txt"
+2024-11-29 12:11:21,648 - ERROR - ·»´õ¸µ ÀÛ¾÷ ½ÇÆĞ. ¿À·ù: 
+2024-11-29 12:11:21,649 - INFO - Ãâ·Â: 
+2024-11-29 12:11:21,649 - INFO - execute_render_task ½ÇÇà ½Ã°£: 34.42ÃÊ
+2024-11-29 12:13:32,909 - INFO - ShotGrid ¼¼¼Ç »ı¼º Áß...
+2024-11-29 12:13:33,967 - INFO - create_shotgun_session ½ÇÇà ½Ã°£: 1.06ÃÊ
+2024-11-29 12:13:33,968 - INFO - ÅÂ½ºÅ© ID 5849 Á¤º¸ °¡Á®¿À´Â Áß...
+2024-11-29 12:13:34,272 - INFO - ÅÂ½ºÅ© Á¤º¸ °¡Á®¿À±â ¼º°ø
+2024-11-29 12:13:34,272 - INFO - get_task_info ½ÇÇà ½Ã°£: 0.30ÃÊ
+2024-11-29 12:13:34,273 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:13:34,288 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:13:34,298 - INFO - ¸í·É¾î »ı¼º ¿Ï·á: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:/Users/admin/Desktop/render_output/render_log.txt
+2024-11-29 12:13:34,299 - INFO - ·»´õ ¸í·É¾î ½ÇÇà Áß: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:/Users/admin/Desktop/render_output/render_log.txt
+2024-11-29 12:13:45,412 - INFO - ·»´õ¸µ ÀÛ¾÷ ¿Ï·á.
+2024-11-29 12:13:45,412 - INFO - Ãâ·Â: 
+2024-11-29 12:13:45,413 - ERROR - ¿À·ù: 
+2024-11-29 12:13:45,413 - INFO - execute_render_task ½ÇÇà ½Ã°£: 11.44ÃÊ
+2024-11-29 12:15:51,857 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 12:15:52,919 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.06ì´ˆ
+2024-11-29 12:15:52,919 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 12:15:53,234 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 12:15:53,235 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.32ì´ˆ
+2024-11-29 12:15:53,236 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:15:53,259 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:15:53,269 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt
+2024-11-29 12:15:53,269 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt
+2024-11-29 12:16:04,928 - INFO - ë Œë”ë§ ì‘ì—… ì™„ë£Œ.
+2024-11-29 12:16:04,928 - INFO - ì¶œë ¥: 
+2024-11-29 12:16:04,929 - ERROR - ì˜¤ë¥˜: 
+2024-11-29 12:16:04,929 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 12.01ì´ˆ
+2024-11-29 12:17:14,803 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 12:17:15,864 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.06ì´ˆ
+2024-11-29 12:17:15,865 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 12:17:16,168 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 12:17:16,169 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.30ì´ˆ
+2024-11-29 12:17:16,169 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:17:16,181 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:17:16,190 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log=C:/Users/admin/Desktop/render_output\render_log.txt
+2024-11-29 12:17:16,191 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log=C:/Users/admin/Desktop/render_output\render_log.txt
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+2024-11-29 12:17:53,560 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 12:17:54,585 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.03ì´ˆ
+2024-11-29 12:17:54,585 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 12:17:54,889 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 12:17:54,891 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.31ì´ˆ
+2024-11-29 12:17:54,893 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:17:54,910 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:17:54,920 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log=C:/Users/admin/Desktop/render_output\render_log.txt
+2024-11-29 12:17:54,921 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:/Users/admin/Desktop/render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log=C:/Users/admin/Desktop/render_output\render_log.txt
+2024-11-29 12:19:10,423 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 12:19:11,477 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.05ì´ˆ
+2024-11-29 12:19:11,477 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 12:19:11,815 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 12:19:11,817 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.34ì´ˆ
+2024-11-29 12:19:11,819 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:19:11,850 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:19:11,860 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="\Game\Scene_Saloon\Sequences\His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 12:19:11,861 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="\Game\Scene_Saloon\Sequences\His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 12:19:18,548 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 12:19:19,629 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.08ì´ˆ
+2024-11-29 12:19:19,629 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 12:19:20,285 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 12:19:20,285 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.66ì´ˆ
+2024-11-29 12:19:20,286 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:19:20,298 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:19:20,308 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="\Game\Scene_Saloon\Sequences\His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 12:19:20,308 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="\Game\Scene_Saloon\Sequences\His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 12:20:03,579 - ERROR - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì‹¤íŒ¨
+2024-11-29 12:20:03,579 - ERROR - 
+2024-11-29 12:20:03,580 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 43.95ì´ˆ
+2024-11-29 12:20:28,245 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 12:20:29,269 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.02ì´ˆ
+2024-11-29 12:20:29,269 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 12:20:29,592 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 12:20:29,594 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 12:20:29,595 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 12:20:29,622 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 12:20:29,633 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 12:20:29,634 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 12:20:40,809 - INFO - ë Œë”ë§ ì‘ì—… ì™„ë£Œ.
+2024-11-29 12:20:40,810 - INFO - ì¶œë ¥: 
+2024-11-29 12:20:40,812 - ERROR - ì˜¤ë¥˜: 
+2024-11-29 12:20:40,813 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 11.54ì´ˆ
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+2024-11-29 15:03:47,241 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:03:48,312 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.07ì´ˆ
+2024-11-29 15:03:48,313 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:03:48,649 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:03:48,650 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.34ì´ˆ
+2024-11-29 15:03:48,650 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:03:48,662 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:03:48,673 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 15:03:48,673 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 15:12:36,849 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:12:37,918 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.07ì´ˆ
+2024-11-29 15:12:37,918 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:12:38,253 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:12:38,253 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:12:38,254 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:12:38,266 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:14:21,817 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:14:22,939 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.12ì´ˆ
+2024-11-29 15:14:22,939 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:14:23,273 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:14:23,273 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:14:35,836 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:14:36,892 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.06ì´ˆ
+2024-11-29 15:14:36,892 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:14:37,222 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:14:37,223 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:15:07,878 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:15:08,934 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.06ì´ˆ
+2024-11-29 15:15:08,935 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:15:09,300 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:15:09,300 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.36ì´ˆ
+2024-11-29 15:15:09,301 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:15:09,626 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:15:09,626 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:15:09,627 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:15:09,639 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:16:03,587 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:16:04,679 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.09ì´ˆ
+2024-11-29 15:16:04,680 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:16:05,011 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:16:05,011 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:16:05,012 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:16:05,374 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:16:05,375 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.36ì´ˆ
+2024-11-29 15:16:05,375 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:16:05,388 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:16:05,399 - INFO - ëª…ë ¹ì–´ ìƒì„± ì™„ë£Œ: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -MoviePipelineConfig="/Game/Cinematics/Queue-ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 15:16:05,400 - INFO - ë Œë” ëª…ë ¹ì–´ ì‹¤í–‰ ì¤‘: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -LevelSequence="/Game/Scene_Saloon/Sequences/His_Sal_Seq_01" -MovieFolder="C:\Users\admin\Desktop\render_output" -MoviePipelineConfig="/Game/Cinematics/Queue-ResX=1280 -ResY=720 -ForceRes -NoTextureStreaming -game -NoSplash -RenderOffscreen -log="C:\Users\admin\Desktop\render_output\render_log.txt"
+2024-11-29 15:27:57,216 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:27:58,293 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.08ì´ˆ
+2024-11-29 15:27:58,293 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:27:58,658 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:27:58,659 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.37ì´ˆ
+2024-11-29 15:27:58,659 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:27:58,672 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:27:58,682 - ERROR - Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Game/Cinematics/Queue does not exist.
+2024-11-29 15:27:58,682 - ERROR - Queue í´ë” ë‚´ì— .uasset íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
+2024-11-29 15:27:58,683 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.39ì´ˆ
+2024-11-29 15:32:40,570 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:32:41,636 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.07ì´ˆ
+2024-11-29 15:32:41,636 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:32:41,969 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:32:41,970 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:32:41,970 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:32:41,982 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:32:41,993 - ERROR - Error: Directory C:Users\admin\Desktop\Project\pipe_test\Content\Game\Cinematics\Queue does not exist.
+2024-11-29 15:32:41,994 - ERROR - Queue í´ë” ë‚´ì— .uasset íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
+2024-11-29 15:32:41,994 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.36ì´ˆ
+2024-11-29 15:33:47,356 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:33:48,462 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.11ì´ˆ
+2024-11-29 15:33:48,463 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:33:48,790 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:33:48,791 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:33:48,791 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:33:48,807 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:33:48,818 - ERROR - Error: Directory C:Users\admin\Desktop\Project\pipe_test\Content\Game\Cinematics\Queue does not exist.
+2024-11-29 15:33:48,818 - ERROR - Queue í´ë” ë‚´ì— .uasset íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
+2024-11-29 15:33:48,819 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.36ì´ˆ
+2024-11-29 15:34:36,774 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:34:37,846 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.07ì´ˆ
+2024-11-29 15:34:37,846 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:34:38,199 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:34:38,200 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.35ì´ˆ
+2024-11-29 15:34:38,200 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:34:38,217 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:34:38,230 - ERROR - Error: Directory C:Users\admin\Desktop\Project\pipe_test\Content\Game\Cinematics\Queue does not exist.
+2024-11-29 15:34:38,230 - ERROR - Queue í´ë” ë‚´ì— .uasset íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
+2024-11-29 15:34:38,230 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.38ì´ˆ
+2024-11-29 15:37:25,054 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:37:26,113 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.06ì´ˆ
+2024-11-29 15:37:26,113 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:37:26,442 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:37:26,443 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.33ì´ˆ
+2024-11-29 15:37:26,443 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:37:26,457 - INFO - Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:37:26,467 - ERROR - Error: Directory C:Users\admin\Desktop\Project\pipe_test\Content\Game\Cinematics\Queue does not exist.
+2024-11-29 15:37:26,467 - ERROR - Queue í´ë” ë‚´ì— .uasset íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
+2024-11-29 15:37:26,468 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.35ì´ˆ
+2024-11-29 15:41:01,364 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:41:02,475 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.11ì´ˆ
+2024-11-29 15:41:02,475 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:41:02,823 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:41:02,823 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.35ì´ˆ
+2024-11-29 15:41:02,824 - INFO - Searching for .uasset files containing 'seq' in C:/Users/admin/Desktop/Project/pipe_test/Content
+2024-11-29 15:41:02,844 - INFO - Found .uasset: C:\Users\admin\Desktop\Project\pipe_test\Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:41:02,857 - ERROR - Error: Directory C:Users\admin\Desktop\Project\pipe_test\Content\Game\Cinematics\Queue does not exist.
+2024-11-29 15:41:02,857 - ERROR - Queue í´ë” ë‚´ì— .uasset íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
+2024-11-29 15:41:02,857 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.38ì´ˆ
+2024-11-29 15:42:37,536 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:42:38,603 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.07ì´ˆ
+2024-11-29 15:42:38,604 - INFO - íƒœìŠ¤í¬ ID 5849 ì •ë³´ ê°€ì ¸ì˜¤ëŠ” ì¤‘...
+2024-11-29 15:42:38,940 - INFO - íƒœìŠ¤í¬ ì •ë³´ ê°€ì ¸ì˜¤ê¸° ì„±ê³µ
+2024-11-29 15:42:38,941 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.34ì´ˆ
+2024-11-29 15:42:38,941 - INFO - Searching for .uasset files containing 'seq' in C:\Users\admin\Desktop\Project\pipe_test\Content
+2024-11-29 15:42:38,957 - INFO - Found .uasset: C:\Users\admin\Desktop\Project\pipe_test\Content\Scene_Saloon\Sequences\His_Sal_Seq_01.uasset
+2024-11-29 15:42:38,973 - ERROR - Error: Directory C:Users\admin\Desktop\Project\pipe_test\Content\Game\Cinematics\Queue does not exist.
+2024-11-29 15:42:38,974 - ERROR - Queue í´ë” ë‚´ì— .uasset íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.
+2024-11-29 15:42:38,974 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.37ì´ˆ
+2024-11-29 15:49:32,641 - INFO - ShotGrid ì„¸ì…˜ ìƒì„± ì¤‘...
+2024-11-29 15:49:33,728 - INFO - create_shotgun_session ì‹¤í–‰ ì‹œê°„: 1.09ì´ˆ
+2024-11-29 15:49:33,729 - INFO - Fetching task info for task ID: 1234
+2024-11-29 15:49:34,068 - ERROR - Failed to retrieve task information.
+2024-11-29 15:49:34,068 - INFO - get_task_info ì‹¤í–‰ ì‹œê°„: 0.34ì´ˆ
+2024-11-29 15:49:34,069 - ERROR - ë Œë” íƒœìŠ¤í¬ ì‹¤í–‰ ì‹¤íŒ¨: íƒœìŠ¤í¬ ì •ë³´ë¥¼ ê°€ì ¸ì˜¬ ìˆ˜ ì—†ìŒ.
+2024-11-29 15:49:34,069 - INFO - execute_render_task ì‹¤í–‰ ì‹œê°„: 0.34ì´ˆ
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+**************************************************
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+Submitting job 'Render_MyRenderQueue_1.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 107.32 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+Submitting job 'Render_MyRenderQueue_2.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 63.27 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+Submitting job 'Render_MyRenderQueue_1.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 151.97 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" 
+Submitting job 'Render_MyRenderQueue_2.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 195.89 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+Starting script execution
+Creating Shotgun session with script: hyo
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+Submitting job 'Render_MyRenderQueue_1.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 81.73 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+Submitting job 'Render_MyRenderQueue_2.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 63.24 seconds.
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\MyRenderQueue_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" -output_directory="C:\Users\admin\Desktop\render_output"
+Submitting job 'Render_MyRenderQueue_1.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 208.68 seconds.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\test\MyRenderQueue_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+**************************************************
+Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/test/MyRenderQueue_2" -output_directory="C:\Users\admin\Desktop\render_output"
+Submitting job 'Render_MyRenderQueue_2.uasset' to Deadline
+An unexpected error occurred: [WinError 2] ÁöÁ¤µÈ ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù
+Execution time for execute_cmd_command: 151.31 seconds.
+Script execution finished
