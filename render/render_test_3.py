@@ -7,9 +7,9 @@ import traceback
 import time
 
 # ShotGrid server URL and certification info
-SERVER_URL = "https://jhworld.shotgrid.autodesk.com"
+SERVER_URL = "https://hg.shotgrid.autodesk.com"
 SCRIPT_NAME = "hyo"
-API_KEY = "qhxiu7rznptjzbonbv*bhxJvu"
+API_KEY = "4yhreigsfqmwlsz%yfnfuqqYo"
 
 # Set up logging with TimedRotatingFileHandler
 log_filename = "render_script.log"
@@ -145,7 +145,7 @@ def execute():
         return
 
     # Task ID
-    task_id = 5849  # 실제 태스크 ID로 변경
+    task_id = 5827  # 실제 태스크 ID로 변경
 
     uproject_path, movie_pipeline_config = get_task_info(sg, task_id)
 
