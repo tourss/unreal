@@ -105,8 +105,6 @@ def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_
     # job_name 생성 (config 파일 이름을 사용)
     job_name = f"Render_{os.path.basename(config_file)}"
 
-    output_path = "C:\\Users\\admin\\Desktop\\render_output"
-
     # MoviePipelineConfig을 정확히 참조하도록 커맨드 생성
     command = (
         f'"{unreal_editor_path}" '

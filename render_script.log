@@ -3780,3 +3780,91 @@ Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\My
 Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
 **************************************************
 Executing command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/MyRenderQueue_1" 
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5849
+Error: 'task' is None. Unable to access task information.
+Not found uproject path or movie_pipeline_config in ShotGrid
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5827
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\HIs_Sal_Seq_01_1.uasset
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/HIs_Sal_Seq_01_1" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\HIs_Sal_Seq_01_1.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/HIs_Sal_Seq_01_1" 
+**************************************************
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5827
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Script execution finished
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5827
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5827
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Starting script execution
+Creating Shotgun session with script: hyo
+Fetching software info for Unreal Engine Editor
+Found software: Unreal Engine Editor
+Fetching task info for task ID: 5827
+Found uproject path: C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject and movie pipeline config: /Game/Cinematics/Queue
+Searching for .uasset files in C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue
+Found .uasset: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Error: Directory C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue does not exist.
+Generated command: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+Processing: C:/Users/admin/Desktop/Project/pipe_test/Content/Cinematics/Queue\His_Sal_Seq_01\His_Sal_Seq_01_2.uasset
+Generated CMD: "C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "C:\Users\admin\Desktop\Project\pipe_test\pipe_test.uproject" -game -NoSplash -log -RenderOffscreen -NoTextureStreaming -MoviePipelineConfig="/Game/Cinematics/Queue/His_Sal_Seq_01/His_Sal_Seq_01_2" 
+**************************************************
+데드라인 작업 제출 성공
+Script execution finished
