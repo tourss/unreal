@@ -6,7 +6,7 @@ import subprocess
 import traceback
 import time
 
-class RenderJob:
+class MrqRender:
     def __init__(self, server_url, script_name, api_key):
         # ShotGrid 서버 URL과 인증 정보
         self.server_url = server_url
@@ -134,13 +134,13 @@ class RenderJob:
             f"-name {job_name}",
             f"-executable {command}"
         ]
-        print(deadline_command)
+        
         try:
             result = subprocess.run(deadline_command, capture_output=True, text=True, check=True)
             logging.info("데드라인 작업 제출 성공")
             return result.stdout
         except subprocess.CalledProcessError as e:
-            logging.error("데드라인 작업 제출 실패")
+            logging.error("데드라인 작업 제출 실패") 
             logging.error(e.stderr)
             return None
 
@@ -163,8 +163,28 @@ class RenderJob:
         except Exception as e:
             logging.error(f"An unexpected error occurred: {e}")
             traceback.print_exc()
+    
+    def execute_nuke_render(self):
+        # nuke_render.py 실행
+        nuke_command = [
+            "C:\\Program Files\\Nuke15.1v2\\Nuke15.1.exe",
+            "-t",  # 터미널 모드로 실행 (GUI 없이)
+            "C:\\Users\\admin\\.repo\\unreal\\render\\renderer\\nuke_render.py"
+        ]
 
-    def execute(self, task_id):
+        try:
+            logging.info("Starting Nuke rendering process...")
+            subprocess.run(nuke_command, check=True)
+            logging.info("Nuke rendering finished.")
+        except subprocess.CalledProcessError as e:
+            logging.error("Nuke render process failed.")
+            logging.error(e.stderr)
+        except Exception as e:
+            logging.error(f"Unexpected error in Nuke render: {e}")
+            traceback.print_exc()
+
+    def execute_mrq_render(self, task_id):
+        """mrq렌더 완료 후 execute_nuke_render 함수 실행"""
         logging.info("Starting script execution")
         
         self.create_shotgun_session()
@@ -188,7 +208,10 @@ class RenderJob:
                     logging.info(f"Generated CMD: {cmd_command}")
                     logging.info('*' * 50)
                     print("CMD COMMAND:", cmd_command)
-                    # self.execute_cmd_command(job_name, cmd_command)
+                    self.execute_cmd_command(job_name, cmd_command)
+                
+                self.execute_nuke_render() # Nuke 렌더 실행
+
             else:
                 logging.warning(f"No .uasset files found in {self.movie_pipeline_config}")
         else:
@@ -197,7 +220,7 @@ class RenderJob:
         logging.info("Script execution finished")
 
 if __name__ == "__main__":
-    render_job = RenderJob(
+    render_job = MrqRender(
         server_url="https://hg.shotgrid.autodesk.com", 
         script_name="hyo", 
         api_key="4yhreigsfqmwlsz%yfnfuqqYo"
