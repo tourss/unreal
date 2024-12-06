@@ -5,52 +5,46 @@ import os
 import subprocess
 import traceback
 import time
+import unreal
 
 class MrqRender:
     def __init__(self, server_url, script_name, api_key):
-        # ShotGrid 서버 URL과 인증 정보
         self.server_url = server_url
         self.script_name = script_name
         self.api_key = api_key
 
-        # 로깅 설정
         self.log_filename = "render_script.log"
         logging.basicConfig(
             level=logging.DEBUG, 
             format="%(asctime)s - %(levelname)s - %(message)s"
         )
         
-        # TimedRotatingFileHandler로 15일마다 로그 파일 회전
         self.handler = handlers.TimedRotatingFileHandler(
             self.log_filename, when="D", interval=15, backupCount=150
         )
         logging.getLogger().addHandler(self.handler)
 
-        self.sg = None  # ShotGrid 세션
+        self.sg = None
         self.unreal_editor_path = None  
         self.render_args = None
         self.uproject_path = None
         self.movie_pipeline_config = None
 
     def log_execution_time(func):
-        # 함수 실행 시간을 로그로 기록하는 데코레이터
         def wrapper(self, *args, **kwargs):
             start_time = time.time()
             result = func(self, *args, **kwargs)
             end_time = time.time()
             elapsed_time = end_time - start_time
             logging.info(f"Execution time for {func.__name__}: {elapsed_time:.2f} seconds.")
-            print(f"Execution time for {func.__name__}: {elapsed_time:.2f} seconds.")
             return result
         return wrapper
 
     def create_shotgun_session(self):
-        # ShotGrid API 세션 생성
         logging.info(f"Creating Shotgun session with script: {self.script_name}")
         self.sg = Shotgun(self.server_url, self.script_name, self.api_key)
 
     def get_software_info(self, software_name):
-        # ShotGrid에서 소프트웨어 정보 가져오기
         logging.info(f"Fetching software info for {software_name}")
         software = self.sg.find_one(
             "Software",
@@ -65,7 +59,6 @@ class MrqRender:
             return None, None
 
     def get_task_info(self, task_id):
-        # Task 정보 가져오기
         logging.info(f"Fetching task info for task ID: {task_id}")
         task = self.sg.find_one(
             "Task",
@@ -80,7 +73,6 @@ class MrqRender:
             logging.error("Error: 'task' is None. Unable to access task information.")
 
     def get_uasset_files(self):
-        # .uasset 파일을 찾아서 리스트로 반환
         movie_pipeline_directory = self.movie_pipeline_config.replace("/Game/", "C:/Users/admin/Desktop/Project/pipe_test/Content/") 
         config_files = []
 
@@ -91,27 +83,31 @@ class MrqRender:
                     if f.endswith(".uasset"):
                         config_files.append(os.path.join(root, f))
                         logging.info(f"Found .uasset: {os.path.join(root, f)}")
-        for config_file in config_files:
-            print("config file context:", config_file)
         else:
             logging.error(f"Error: Directory {movie_pipeline_directory} does not exist.")
         
         return config_files
 
-    def generate_cmd_command(self, config_file):
-        # MoviePipelineConfig의 상대 경로 가져오기
-        config_path = config_file.replace("C:/Users/admin/Desktop/Project/pipe_test/Content/", "/Game/")
-        
-        # .uasset 확장자를 제거하고 Unreal 경로로 설정
-        config_name = os.path.splitext(config_path)[0]
+    def get_and_set_resolution(self):
+        # Unreal Editor에서 MoviePipelineConfig의 해상도를 가져와 수정
+        pipeline_config_asset = unreal.EditorAssetLibrary.load_asset(self.movie_pipeline_config)
+        if pipeline_config_asset:
+            # MovieRenderPipeline의 해상도 설정 가져오기
+            render_settings = pipeline_config_asset.get_editor_property("output_resolution")
+            logging.info(f"Current resolution: {render_settings}")
+            # 해상도 변경
+            render_settings = unreal.IntPoint(1280, 720)  # 원하는 해상도로 설정
+            pipeline_config_asset.set_editor_property("output_resolution", render_settings)
+            logging.info(f"Updated resolution: {render_settings}")
+            # 변경 사항 저장
+            unreal.EditorAssetLibrary.save_asset(self.movie_pipeline_config)
 
-        # 백슬래시를 슬래시로 바꾸어 호환성 확보
+    def generate_cmd_command(self, config_file):
+        config_path = config_file.replace("C:/Users/admin/Desktop/Project/pipe_test/Content/", "/Game/")
+        config_name = os.path.splitext(config_path)[0]
         config_name = config_name.replace("\\", "/")
-        
-        # job_name 생성 (config 파일 이름을 사용)
         job_name = f"Render_{os.path.basename(config_file)}"
 
-        # MoviePipelineConfig을 정확히 참조하도록 커맨드 생성
         command = (
             f'"{self.unreal_editor_path}" '
             f'"{self.uproject_path}" '
@@ -120,14 +116,13 @@ class MrqRender:
             f'-log '
             f'-RenderOffscreen '
             f'-NoTextureStreaming '
-            f'-MoviePipelineConfig="{config_name}" '
+            f'-MoviePipelineConfig="{config_name}"'
         )
 
         logging.info(f"Generated command: {command}")
         return job_name, command
 
     def submit_to_deadline(self, job_name, command):
-        """데드라인에 렌더 작업 제출"""
         deadline_command = [
             "deadlinecommand",
             "-SubmitCommandLineJob",
@@ -137,23 +132,20 @@ class MrqRender:
         
         try:
             result = subprocess.run(deadline_command, capture_output=True, text=True, check=True)
-            logging.info("데드라인 작업 제출 성공")
+            logging.info("Deadline job submission successful")
             return result.stdout
         except subprocess.CalledProcessError as e:
-            logging.error("데드라인 작업 제출 실패") 
+            logging.error("Deadline job submission failed")
             logging.error(e.stderr)
             return None
 
     @log_execution_time
     def execute_cmd_command(self, job_name, cmd_command):
-        # CMD 명령어 실행 및 데드라인에 작업 제출
         try:
             logging.info(f"Executing command: {cmd_command}")
             subprocess.run(cmd_command, shell=True, check=True)  # check=True will raise an exception if the command fails
-
-            # 데드라인에 작업 제출
             logging.info(f"Submitting job '{job_name}' to Deadline")
-            self.submit_to_deadline(job_name, cmd_command)  # 데드라인에 작업 제출
+            self.submit_to_deadline(job_name, cmd_command)
         except subprocess.CalledProcessError as e:
             logging.error(f"Error occurred while executing the command: {cmd_command}")
             logging.error(f"Return code: {e.returncode}")
@@ -163,28 +155,8 @@ class MrqRender:
         except Exception as e:
             logging.error(f"An unexpected error occurred: {e}")
             traceback.print_exc()
-    
-    def execute_nuke_render(self):
-        # nuke_render.py 실행
-        nuke_command = [
-            "C:\\Program Files\\Nuke15.1v2\\Nuke15.1.exe",
-            "-t",  # 터미널 모드로 실행 (GUI 없이)
-            "C:\\Users\\admin\\.repo\\unreal\\render\\renderer\\nuke_render.py"
-        ]
-
-        try:
-            logging.info("Starting Nuke rendering process...")
-            subprocess.run(nuke_command, check=True)
-            logging.info("Nuke rendering finished.")
-        except subprocess.CalledProcessError as e:
-            logging.error("Nuke render process failed.")
-            logging.error(e.stderr)
-        except Exception as e:
-            logging.error(f"Unexpected error in Nuke render: {e}")
-            traceback.print_exc()
 
     def execute_mrq_render(self, task_id):
-        """mrq렌더 완료 후 execute_nuke_render 함수 실행"""
         logging.info("Starting script execution")
         
         self.create_shotgun_session()
@@ -198,6 +170,8 @@ class MrqRender:
         self.get_task_info(task_id)
 
         if self.uproject_path and self.movie_pipeline_config:
+            self.get_and_set_resolution()  # 해상도 설정 업데이트
+
             config_files = self.get_uasset_files()
 
             if config_files:
@@ -210,8 +184,6 @@ class MrqRender:
                     print("CMD COMMAND:", cmd_command)
                     self.execute_cmd_command(job_name, cmd_command)
                 
-                self.execute_nuke_render() # Nuke 렌더 실행
-
             else:
                 logging.warning(f"No .uasset files found in {self.movie_pipeline_config}")
         else:
@@ -225,4 +197,4 @@ if __name__ == "__main__":
         script_name="hyo", 
         api_key="4yhreigsfqmwlsz%yfnfuqqYo"
     )
-    render_job.execute(task_id=5827)  # 실제 태스크 ID로 변경
+    render_job.execute_mrq_render(task_id=5827)

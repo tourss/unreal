@@ -26,10 +26,11 @@ class NukeRender:
         task = self.sg.find_one(
             "Task",
             [["id", "is", task_id]],
-            ["entity.Shot.sg_ue_level_sequence"]
+            ["entity.Shot.sg_ue_level_sequence", "entity,Shot.sg_resolution", ]
         )
         if task is not None:
             self.level_sequence = task.get("entity.Shot.sg_ue_level_sequence")
+            self.resolution = task.get("entity.Shot.sg_resolution")
         else:
             raise ValueError(f"Task ID {task_id}에 대한 샷 정보를 찾을 수 없습니다.")
 
@@ -72,6 +73,7 @@ class NukeRender:
         # Read 노드 생성
         read_node = nuke.createNode("Read")
         read_node["file"].setValue(exr_input)
+            
 
         # EXR 파일 이름에서 프레임 번호를 추출하여 정렬
         frame_numbers = []
@@ -83,11 +85,21 @@ class NukeRender:
 
         # 첫 번째 프레임과 마지막 프레임을 찾음
         start_frame = min(frame_numbers)
-        end_frame = max(frame_numbers)   
+        end_frame = max(frame_numbers)
 
         # Read 노드에서 프레임 범위 자동으로 설정
         read_node["first"].setValue(int(start_frame))
         read_node["last"].setValue(int(end_frame))
+        
+        # 해상도 설정
+        if self.resolution == "1280x720":
+            read_node["format"].setValue("HD_720")
+        elif self.resolution == "1920x1080":
+            read_node["format"].setValue("HD_1080")
+        elif self.resolution == "3840x2160":
+            read_node["format"].setValue("UHD_4K")
+        else:
+            print(f"Unknown resolution: {self.resolution}")
 
         return start_frame, end_frame, exr_name
     
