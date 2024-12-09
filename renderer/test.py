@@ -18,17 +18,10 @@ class MrqRender:
         self.movie_pipeline_config_path = None
 
     def create_shotgun_session(self):
-        """
-        ShotGrid 세션을 생성하고 연결합니다.
-        """
         self.sg = Shotgun(self.server_url, self.script_name, self.api_key)
         logging.info("ShotGrid 세션이 생성되었습니다.")
 
     def get_task_info(self, task_id):
-        """
-        주어진 task_id에 대한 ShotGrid 작업 정보를 가져옵니다.
-        :param task_id: ShotGrid에서 사용할 작업 ID
-        """
         task_data = self.sg.find_one(
             'Task', 
             [['id', 'is', task_id]], 
@@ -39,31 +32,49 @@ class MrqRender:
             logging.error("Task ID: {}에 대한 작업 데이터를 찾을 수 없습니다.".format(task_id))
             return None
 
-        # sg_output_path, sg_ue_map, sg_level_sequence, sg_movie_pipeline_config 경로 할당
-        self.unreal_map_path = task_data['entity.Shot.sg_ue_map']  # '/Game/Scene_Saloon/Maps/Historic_Saloon'
-        self.sequence_path = task_data['entity.Shot.sg_ue_level_sequence']  # '/Game/Scene_Saloon/Sequences/His_Sal_Seq_01'
-        self.output_path = task_data['entity.Shot.sg_output_path']  
-        self.movie_pipeline_config_path = task_data['entity.Shot.sg_movie_pipeline_config']  # Movie Pipeline Config 경로
+        self.unreal_map_path = task_data['entity.Shot.sg_ue_map']
+        self.sequence_path = task_data['entity.Shot.sg_ue_level_sequence']
+        self.output_path = task_data['entity.Shot.sg_output_path']
+        self.movie_pipeline_config_path = task_data['entity.Shot.sg_movie_pipeline_config']
 
         logging.info("Task ID: {}의 정보를 성공적으로 가져왔습니다.".format(task_id))
         return task_data
 
+    def get_and_set_resolution(self, new_resolution=(1280, 720)):
+        """
+        MoviePipelineConfig의 해상도를 새로 설정합니다.
+        :param new_resolution: 새로 설정할 해상도 (width, height)
+        """
+        pipeline_config_asset = unreal.EditorAssetLibrary.load_asset(self.movie_pipeline_config_path)
+        
+        if not pipeline_config_asset:
+            logging.error(f"MoviePipelineConfig을 로드할 수 없습니다: {self.movie_pipeline_config_path}")
+            return False
+
+        # MovieRenderPipelineSettings 가져오기
+        pipeline_settings = pipeline_config_asset.get_editor_property("settings")
+        if not pipeline_settings:
+            logging.error("MovieRenderPipelineSettings을 가져올 수 없습니다.")
+            return False
+        
+        # 해상도 설정을 변경
+        new_resolution = unreal.IntPoint(*new_resolution)
+        pipeline_settings.set_editor_property("output_resolution", new_resolution)
+
+        # 변경된 설정 저장
+        unreal.EditorAssetLibrary.save_asset(self.movie_pipeline_config_path)
+
+        logging.info(f"해상도가 {new_resolution}으로 변경되었습니다.")
+        return True
+
     def _unreal_render_with_movie_pipeline(self):
-        """
-        Movie Pipeline Config를 사용하여 렌더링을 수행합니다.
-        :returns: 렌더링 성공 여부와 생성된 영화 파일의 경로
-        """
         if not self.output_path or not self.movie_pipeline_config_path:
             logging.error("출력 경로 또는 Movie Pipeline Config 경로가 설정되지 않았습니다.")
             return False, None
 
-        # 시퀀스 이름을 추출
-        sequence_name = self.sequence_path.split("/")[-1]  # '/Game/Scene_Saloon/Sequences/His_Sal_Seq_01'에서 'His_Sal_Seq_01'을 추출
-
-        # 최종 출력 파일 경로 설정 (확장자는 .mov)
+        sequence_name = self.sequence_path.split("/")[-1]
         output_file = os.path.join(self.output_path, f"{sequence_name}.mov")
 
-        # 기존에 파일이 있으면 삭제
         if os.path.isfile(output_file):
             try:
                 os.remove(output_file)
@@ -80,10 +91,10 @@ class MrqRender:
                 unreal.SystemLibrary.get_project_directory(),
                 "%s.uproject" % unreal.SystemLibrary.get_game_name(),
             ),
-            self.unreal_map_path,  # '/Game/Scene_Saloon/Maps/Historic_Saloon' 
-            "-MoviePipelineConfig=%s" % self.movie_pipeline_config_path,  # Movie Pipeline Config 경로
+            self.unreal_map_path,
+            "-MoviePipelineConfig=%s" % self.movie_pipeline_config_path,
             "-MovieFolder=%s" % self.output_path,
-            "-MovieName=%s" % sequence_name,  # 시퀀스 이름을 출력 파일명으로 사용
+            "-MovieName=%s" % sequence_name,
             "-game",
             "-NoTextureStreaming",
             "-NoLoadingScreen",
@@ -94,7 +105,6 @@ class MrqRender:
 
         logging.info("Movie Pipeline 렌더링 명령어 인자: {}".format(" ".join(cmdline_args)))
 
-        # 환경 변수 복사 및 ShotGrid 관련 환경 변수 제거
         run_env = copy.copy(os.environ)
         if "UE_SHOTGUN_BOOTSTRAP" in run_env:
             del run_env["UE_SHOTGUN_BOOTSTRAP"]
@@ -113,16 +123,19 @@ class MrqRender:
             return False, None
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)  # 로그 레벨을 DEBUG로 설정
+    logging.basicConfig(level=logging.DEBUG)
     render_job = MrqRender(
         server_url="https://hg.shotgrid.autodesk.com", 
         script_name="hyo", 
         api_key="4yhreigsfqmwlsz%yfnfuqqYo"
     )
     render_job.create_shotgun_session()
-    task_id = 5827  # 예시 Task ID
+    task_id = 5827
     task_info = render_job.get_task_info(task_id)
     if task_info:
+        # 해상도 설정 업데이트
+        render_job.get_and_set_resolution(new_resolution=(1280, 720))
+        
         success, movie_path = render_job._unreal_render_with_movie_pipeline()
         if success:
             logging.info(f"렌더링 성공! 출력 파일: {movie_path}")
