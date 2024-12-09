@@ -67,7 +67,7 @@ class MrqRender:
                 os.remove(output_file)
             except OSError:
                 logging.error(
-                    "{}을(를) 삭제할 수 없습니다. Sequencer가 해당 파일에 영화를 출력할 수 없습니다.".format(output_file)
+                    "{}을(를) 삭제할 수 없습니다. Sequencer가 해당 파일에 영상을 출력할 수 없습니다.".format(output_file)
                 )
                 return False, None
 
@@ -89,7 +89,7 @@ class MrqRender:
             "-FFmpegEncoderOptions=-c:v prores_ks -profile:v 3 -pix_fmt yuv422p10le -c:a pcm_s16le",  # FFmpeg 인코더 옵션 설정
             "-ResX=1280",
             "-ResY=720",
-            "-ForceRes",s
+            "-ForceRes",
             "-MovieCinematicMode=yes",
             "-MovieFormat=mov",  # mov 형식으로 변경
             "-MovieFrameRate=24",
