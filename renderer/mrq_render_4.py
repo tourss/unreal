@@ -58,10 +58,17 @@ class MrqRender:
             return False, None
 
         # 시퀀스 이름을 추출
-        sequence_name = self.sequence_path.split("/")[-1]  # '/Game/Scene_Saloon/Sequences/His_Sal_Seq_01'에서 'His_Sal_Seq_01'을 추출
+        sequence_name = self.sequence_path.split("/")[-1].replace(".mov", "")  # '/Game/Scene_Saloon/Sequences/His_Sal_Seq_01'에서 'His_Sal_Seq_01'을 추출
+        print ("*"*50)
+        print (sequence_name)
+        print ("*"*50)
 
         # 최종 출력 파일 경로 설정 (확장자는 .mov)
         output_file = os.path.join(self.output_path, f"{sequence_name}.mov")
+        print ("*"*50)
+        print (output_file)
+        print ("*"*50)
+        
 
         # 기존에 파일이 있으면 삭제
         if os.path.isfile(output_file):
