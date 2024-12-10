@@ -2,7 +2,6 @@ import os
 import subprocess
 import sys
 import logging
-import copy
 from shotgun_api3 import Shotgun
 import unreal
 
@@ -12,126 +11,148 @@ class MrqRender:
         self.script_name = script_name
         self.api_key = api_key
         self.sg = None
-        self.unreal_map_path = None
-        self.sequence_path = None
-        self.output_path = None
-        self.movie_pipeline_config_path = None
+
+        # Logger 설정
+        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(logging.DEBUG)
 
     def create_shotgun_session(self):
         """
         ShotGrid 세션을 생성하고 연결합니다.
         """
         self.sg = Shotgun(self.server_url, self.script_name, self.api_key)
-        logging.info("ShotGrid 세션이 생성되었습니다.")
+        self.logger.info("ShotGrid 세션이 생성되었습니다.")
 
     def get_task_info(self, task_id):
         """
-        주어진 task_id에 대한 ShotGrid 작업 정보를 가져옵니다.
-        :param task_id: ShotGrid에서 사용할 작업 ID
+        주어진 task_id에 해당하는 작업 정보를 가져옵니다.
         """
-        task_data = self.sg.find_one(
-            'Task', 
-            [['id', 'is', task_id]], 
-            ["project", 'entity.Shot.sg_ue_map', 'entity.Shot.sg_ue_level_sequence', 'entity.Shot.sg_output_path', 'entity.Shot.sg_movie_pipeline_config']
-        )
-
-        if task_data is None:
-            logging.error("Task ID: {}에 대한 작업 데이터를 찾을 수 없습니다.".format(task_id))
+        try:
+            task_data = self.sg.find_one(
+                'Task',
+                [['id', 'is', task_id]],
+                [
+                    'project',
+                    'entity.Shot.sg_ue_map',
+                    'entity.Shot.sg_ue_level_sequence',
+                    'entity.Shot.sg_output_path',
+                    'entity.Shot.sg_movie_pipeline_config'
+                ]
+            )
+            if task_data:
+                self.logger.info(f"Task ID {task_id}에 대한 작업 정보 가져오기 성공.")
+                return task_data
+            else:
+                self.logger.error(f"Task ID {task_id}에 대한 작업 정보를 찾을 수 없습니다.")
+                return None
+        except Exception as e:
+            self.logger.error(f"Task 정보 가져오기 실패: {e}")
             return None
 
-        # sg_output_path, sg_ue_map, sg_level_sequence, sg_movie_pipeline_config 경로 할당
-        self.unreal_map_path = task_data['entity.Shot.sg_ue_map']  # '/Game/Scene_Saloon/Maps/Historic_Saloon'
-        self.sequence_path = task_data['entity.Shot.sg_ue_level_sequence']  # '/Game/Scene_Saloon/Sequences/His_Sal_Seq_01'
-        self.output_path = task_data['entity.Shot.sg_output_path']  
-        self.movie_pipeline_config_path = task_data['entity.Shot.sg_movie_pipeline_config']  # Movie Pipeline Config 경로
-
-        logging.info("Task ID: {}의 정보를 성공적으로 가져왔습니다.".format(task_id))
-        return task_data
-
-    def _unreal_render_with_movie_pipeline(self):
+    def generate_movie_pipeline_job(self, sequence_path, unreal_map_path, output_path):
         """
-        Movie Pipeline Config를 사용하여 렌더링을 수행합니다.
-        :returns: 렌더링 성공 여부와 생성된 영화 파일의 경로
+        Movie Pipeline Job 객체를 생성합니다.
         """
-        if not self.output_path or not self.movie_pipeline_config_path:
-            logging.error("출력 경로 또는 Movie Pipeline Config 경로가 설정되지 않았습니다.")
-            return False, None
+        queue_subsystem = unreal.get_engine_subsystem(unreal.MoviePipelineQueueEngineSubsystem)
+        queue = queue_subsystem.get_queue()
 
-        # 시퀀스 이름을 추출
-        sequence_name = self.sequence_path.split("/")[-1].replace(".mov", "")  # '/Game/Scene_Saloon/Sequences/His_Sal_Seq_01'에서 'His_Sal_Seq_01'을 추출
-        print ("*"*50)
-        print (sequence_name)
-        print ("*"*50)
+        # Map 로드
+        unreal.EditorLoadingAndSavingUtils.load_map(unreal_map_path)
 
-        # 최종 출력 파일 경로 설정 (확장자는 .mov)
-        output_file = os.path.join(self.output_path, f"{sequence_name}.mov")
-        print ("*"*50)
-        print (output_file)
-        print ("*"*50)
-        
+        # Job 생성
+        job = queue.allocate_new_job(unreal.MoviePipelineExecutorJob)
+        job.map = unreal.SoftObjectPath(unreal_map_path)
+        job.sequence = unreal.SoftObjectPath(sequence_path)
+        job.author = "ShotGrid Integration"
 
-        # 기존에 파일이 있으면 삭제
-        if os.path.isfile(output_file):
-            try:
-                os.remove(output_file)
-            except OSError:
-                logging.error(
-                    "{}을(를) 삭제할 수 없습니다. Movie Pipeline이 해당 파일에 영상을 출력할 수 없습니다.".format(output_file)
-                )
-                return False, None
+        # 출력 경로 설정
+        job.job_name = "ShotGrid Render Job"
+        job.set_output_directory(output_path)
 
-        unreal_executable = r"C:\Program Files\Epic Games\UE_5.4\Engine\Binaries\Win64\UnrealEditor-Cmd.exe"
-        cmdline_args = [
-            unreal_executable,
-            "%s" % os.path.join(
-                unreal.SystemLibrary.get_project_directory(),
-                "%s.uproject" % unreal.SystemLibrary.get_game_name(),
-            ),
-            self.unreal_map_path,  # '/Game/Scene_Saloon/Maps/Historic_Saloon' 
-            "-MoviePipelineConfig=%s" % self.movie_pipeline_config_path,  # Movie Pipeline Config 경로
-            "-MovieFolder=%s" % self.output_path,
-            "-MovieName=%s" % sequence_name,  # 시퀀스 이름을 출력 파일명으로 사용
+        return job
+
+    def _build_render_command(self, job, config_path=None):
+        """
+        Unreal Engine 렌더링 명령어를 생성합니다.
+        """
+        queue_subsystem = unreal.get_engine_subsystem(unreal.MoviePipelineQueueEngineSubsystem)
+        queue = queue_subsystem.get_queue()
+        job_index = queue.get_job_index(job)
+
+        render_command = [
+            "C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/Win64/UnrealEditor-Cmd.exe",
+            os.path.join(unreal.SystemLibrary.get_project_directory(), f"{unreal.SystemLibrary.get_game_name()}.uproject"),
+            "MoviePipelineEntryMap?game=/Script/MovieRenderPipelineCore.MoviePipelineGameMode",
             "-game",
-            "-NoTextureStreaming",
+            "-Multiprocess",
             "-NoLoadingScreen",
-            "-NoScreenMessages",
-            "-RenderOffscreen",
-            "-noSplash"
+            "-FixedSeed",
+            "-log",
+            "-Unattended",
+            "-messaging",
+            "-nohmd",
+            "-windowed",
+            "-ResX=1280",
+            "-ResY=720",
+            "-execcmds=r.HLOD 0",
+            f"-MoviePipelineJob={job_index}"
         ]
 
-        logging.info("Movie Pipeline 렌더링 명령어 인자: {}".format(" ".join(cmdline_args)))
+        if config_path:
+            render_command.append(f"-MoviePipelineConfig={config_path}")
 
-        # 환경 변수 복사 및 ShotGrid 관련 환경 변수 제거
-        run_env = copy.copy(os.environ)
-        if "UE_SHOTGUN_BOOTSTRAP" in run_env:
-            del run_env["UE_SHOTGUN_BOOTSTRAP"]
-        if "UE_SHOTGRID_BOOTSTRAP" in run_env:
-            del run_env["UE_SHOTGRID_BOOTSTRAP"]
+        return render_command
 
-        return_code = subprocess.call(cmdline_args, env=run_env)
-        if return_code != 0:
-            logging.error(f"Unreal Engine 렌더링 명령어 실행 실패. 반환 코드: {return_code}")
+    def submit_to_deadline(self, render_command):
+        """
+        Deadline에 렌더 작업을 제출합니다.
+        """
+        deadline_command = "C:/DeadlinePath/deadlinecommand.exe"
+        submission_args = ["SubmitCommandLineJob"] + render_command
+        try:
+            subprocess.call([deadline_command] + submission_args)
+            self.logger.info("Deadline에 작업 제출 성공.")
+        except Exception as e:
+            self.logger.error(f"Deadline 작업 제출 실패: {e}")
+
+    def render(self, task_id):
+        """
+        렌더링 작업을 실행합니다.
+        """
+        task_data = self.get_task_info(task_id)
+        if not task_data:
             return False, None
 
-        if os.path.isfile(output_file):
-            return True, output_file
-        else:
-            logging.error("렌더링 후 출력 파일을 찾을 수 없습니다.")
+        sequence_path = task_data.get('entity.Shot.sg_ue_level_sequence', None)
+        unreal_map_path = task_data.get('entity.Shot.sg_ue_map', None)
+        output_path = task_data.get('entity.Shot.sg_output_path', None)
+        config_path = task_data.get('entity.Shot.sg_movie_pipeline_config', None)
+
+        if not sequence_path or not unreal_map_path or not output_path:
+            self.logger.error(f"필수 정보가 누락되었습니다: Sequence Path: {sequence_path}, Map Path: {unreal_map_path}, Output Path: {output_path}")
             return False, None
+
+        job = self.generate_movie_pipeline_job(sequence_path, unreal_map_path, output_path)
+        render_command = self._build_render_command(job, config_path=config_path)
+
+        success = subprocess.call(render_command) == 0
+        if success:
+            self.submit_to_deadline(render_command)
+
+        return success, output_path
+
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)  # 로그 레벨을 DEBUG로 설정
+    logging.basicConfig(level=logging.DEBUG)
     render_job = MrqRender(
-        server_url="https://hg.shotgrid.autodesk.com", 
-        script_name="hyo", 
+        server_url="https://hg.shotgrid.autodesk.com",
+        script_name="hyo",
         api_key="4yhreigsfqmwlsz%yfnfuqqYo"
     )
     render_job.create_shotgun_session()
-    task_id = 5827  # 예시 Task ID
-    task_info = render_job.get_task_info(task_id)
-    if task_info:
-        success, movie_path = render_job._unreal_render_with_movie_pipeline()
-        if success:
-            logging.info(f"렌더링 성공! 출력 파일: {movie_path}")
-        else:
-            logging.error("렌더링 실패")
+    task_id = 5827
+    success, movie_path = render_job.render(task_id)
+    if success:
+        logging.info(f"렌더링 성공! 출력 파일: {movie_path}")
+    else:
+        logging.error("렌더링 실패")
