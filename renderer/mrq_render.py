@@ -225,4 +225,4 @@ if __name__ == "__main__":
         script_name="hyo", 
         api_key="4yhreigsfqmwlsz%yfnfuqqYo"
     )
-    render_job.execute(task_id=5827)  # 실제 태스크 ID로 변경
+    render_job.execute_mrq_render(task_id=5827)  # 실제 태스크 ID로 변경
