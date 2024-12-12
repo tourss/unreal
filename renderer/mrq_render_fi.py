@@ -136,7 +136,6 @@ class MrqRender:
                     # 변경 사항 저장
                     unreal.EditorAssetLibrary.save_asset(ue_config_path)
                     logging.info(f"Changes saved successfully for {ue_config_path}")
-                    logging.info(f"Final Resolution: {resolution_setting.output_resolution.x}x{resolution_setting.output_resolution.y}")
 
                     # ue_config_path를 리스트에 추가
                     ue_config_paths.append(ue_config_path)
@@ -144,7 +143,13 @@ class MrqRender:
                     logging.error(f"Failed to load queue asset: {ue_config_path}")
         else:
             logging.warning("No .uasset files found.")
-
+        print ("*"*50)
+        print ("*"*50)
+        print ("*"*50)
+        print (ue_config_paths)
+        print ("*"*50)
+        print ("*"*50)
+        print ("*"*50)
         return ue_config_paths
 
     def generate_cmd_command(self, config_files, ue_config_paths):

@@ -110,7 +110,7 @@ def generate_cmd_command(unreal_editor_path, uproject_path, config_file, render_
         f'-NoSplash -log '
         f'-RenderOffscreen '
         f'-MoviePipelineConfig="{config_name}" '
-        f'-resX=1280 -resY=720 '   # 커맨드의 res 옵션이 MoviePipelineConfig의 설정을 덮어쓰지 못하고 있음
+        # f'-resX=1280 -resY=720 ' 
     )
     #"{unreal_editor_path}" "{uproject_path}" -game -NoSplash -log -RenderOffscreen -ExecCmds="r.SetRes 1280x720"
     
@@ -145,7 +145,7 @@ def execute():
         return
 
     # Task ID
-    task_id = 5849  # 실제 태스크 ID로 변경
+    task_id = 5849
 
     uproject_path, movie_pipeline_config = get_task_info(sg, task_id)
 
