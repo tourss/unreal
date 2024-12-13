@@ -1,8 +1,8 @@
 import unreal
 
 # Movie Pipeline Queue 어셋 로드
-asset_path = "/Game/Cinematics/Queue/His_Sal_Seq_01_1"
-queue_asset = unreal.EditorAssetLibrary.load_asset(asset_path)
+config_path = "/Game/Cinematics/Queue/His_Sal_Seq_01_1"
+queue_asset = unreal.EditorAssetLibrary.load_asset(config_path)
 
 if queue_asset:
     # Queue에 있는 Job 확인
@@ -18,8 +18,8 @@ if queue_asset:
                 print(f"Current Resolution: {resolution_setting.output_resolution.x}x{resolution_setting.output_resolution.y}")
 
                 # 해상도 변경
-                new_width = 3840
-                new_height = 2160
+                new_width = 0   
+                new_height = 0
                 resolution_setting.output_resolution.x = new_width
                 resolution_setting.output_resolution.y = new_height
 
@@ -28,7 +28,7 @@ if queue_asset:
                 print("No resolution setting found.")
 
     # 변경 사항 저장
-    unreal.EditorAssetLibrary.save_asset(asset_path)
+    unreal.EditorAssetLibrary.save_asset(config_path)
     print("Changes saved successfully.")
 else:
     print("Failed to load asset.")

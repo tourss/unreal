@@ -3,9 +3,20 @@ from logging import handlers
 from shotgun_api3 import Shotgun
 import os
 import subprocess
-import traceback
 import time
 import unreal
+import traceback
+
+# Decorator for logging execution time
+def log_execution_time(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        execution_time = end_time - start_time
+        logging.info(f"Execution time for {func.__name__}: {execution_time:.2f} seconds")
+        return result
+    return wrapper
 
 class MrqRender:
     def __init__(self, server_url, script_name, api_key):
@@ -31,16 +42,6 @@ class MrqRender:
         self.movie_pipeline_config = None
 
         logging.info("RenderScript initialized")
-
-    def log_execution_time(func):
-        def wrapper(self, *args, **kwargs):
-            start_time = time.time()
-            result = func(self, *args, **kwargs)
-            end_time = time.time()
-            elapsed_time = end_time - start_time
-            logging.info(f"Execution time for {func.__name__}: {elapsed_time:.2f} seconds.")
-            return result
-        return wrapper
 
     def create_shotgun_session(self):
         logging.info(f"Creating Shotgun session with script: {self.script_name}")
@@ -91,16 +92,26 @@ class MrqRender:
             logging.error(f"Error: Directory {movie_pipeline_directory} does not exist.")
         
         return config_files
-        
+
     def _get_and_set_resolution(self):
-        # get_uasset_files에서 반환된 파일을 사용
         config_files = self.get_uasset_files()  # .uasset 파일 목록을 가져옵니다.
+        logging.info ("*"*50)
+        logging.info ("config_files")
+        logging.info (config_files)
+        logging.info ("*"*50)
+
         ue_config_paths = []  # ue_config_path를 저장할 리스트
 
         if config_files:
             for config_file in config_files:
                 # 경로에서 역슬래시를 슬래시로 변환하고, .uasset 확장자를 제거
-                ue_config_path = config_file.replace("C:\\Users\\admin\\Desktop\\Project\\pipe_test\\Content\\", "/Game/").replace("\\", "/").replace(".uasset", "")
+                ue_config_path = config_file.replace("C:\\Users\\admin\\Desktop\\Project\\pipe_test\\Content\\", "/Game/")
+                ue_config_path = ue_config_path.replace("\\", "/")
+                ue_config_path = ue_config_path.replace(".uasset", "")
+                logging.info ("*"*50)
+                logging.info ("ue_config_path")
+                logging.info (ue_config_path)
+                logging.info ("*"*50)
                 
                 # Unreal Editor에서 MoviePipelineConfig의 해상도를 가져와 수정
                 pipeline_config_asset = unreal.EditorAssetLibrary.load_asset(ue_config_path)
@@ -121,8 +132,8 @@ class MrqRender:
                                     )
 
                                 # 해상도 변경
-                                new_width = 3960
-                                new_height = 2160
+                                new_width = 1260
+                                new_height = 720
                                 resolution_setting.output_resolution.x = new_width
                                 resolution_setting.output_resolution.y = new_height
 
@@ -137,19 +148,15 @@ class MrqRender:
                     unreal.EditorAssetLibrary.save_asset(ue_config_path)
                     logging.info(f"Changes saved successfully for {ue_config_path}")
 
-                    # ue_config_path를 리스트에 추가
-                    ue_config_paths.append(ue_config_path)
-                else:
-                    logging.error(f"Failed to load queue asset: {ue_config_path}")
+                # ue_config_path를 리스트에 추가
+                ue_config_paths.append(ue_config_path)
+                logging.info ("*"*50)
+
+            else:
+                logging.error(f"Failed to load queue asset: {ue_config_path}")
         else:
             logging.warning("No .uasset files found.")
-        print ("*"*50)
-        print ("*"*50)
-        print ("*"*50)
-        print (ue_config_paths)
-        print ("*"*50)
-        print ("*"*50)
-        print ("*"*50)
+
         return ue_config_paths
 
     def generate_cmd_command(self, config_files, ue_config_paths):
@@ -167,26 +174,10 @@ class MrqRender:
                     f'-NoTextureStreaming '
                     f'-MoviePipelineConfig="{ue_config_path}"'
                 )
-                cmd_commands.append((job_name, command)) 
-
-        return cmd_commands
-
-    def submit_to_deadline(self, job_name, command):
-        deadline_command = [
-            "deadlinecommand",
-            "-SubmitCommandLineJob",
-            f"-name {job_name}",
-            f"-executable {command}"
-        ]
+                cmd_commands.append((job_name, command))  # Append as a tuple
+                logging.info(f"Generated CMD: {command}")
         
-        try:
-            result = subprocess.run(deadline_command, capture_output=True, text=True, check=True)
-            logging.info("Deadline job submission successful")
-            return result.stdout
-        except subprocess.CalledProcessError as e:
-            logging.error("Deadline job submission failed")
-            logging.error(e.stderr)
-            return None
+        return cmd_commands
 
     @log_execution_time
     def execute_cmd_command(self, job_name, cmd_command):
@@ -204,6 +195,23 @@ class MrqRender:
         except Exception as e:
             logging.error(f"An unexpected error occurred: {e}")
             traceback.print_exc()
+
+    def submit_to_deadline(self, job_name, command):
+        deadline_command = [
+            "deadlinecommand",
+            "-SubmitCommandLineJob",
+            f"-name {job_name}",
+            f"-executable {command}"
+        ]
+        
+        try:
+            result = subprocess.run(deadline_command, capture_output=True, text=True, check=True)
+            logging.info("Deadline job submission successful")
+            return result.stdout
+        except subprocess.CalledProcessError as e:
+            logging.error("Deadline job submission failed")
+            logging.error(e.stderr)
+            return None
 
     def execute_mrq_render(self, task_id):
         logging.info("Starting script execution")
@@ -223,9 +231,9 @@ class MrqRender:
         if self.uproject_path and self.movie_pipeline_config:
             ue_config_paths = self._get_and_set_resolution()  # 해상도 설정 업데이트
 
-            if config_files:
+            if ue_config_paths:
                 cmd_commands = self.generate_cmd_command(config_files, ue_config_paths)  # 명령어 목록 생성
-                for job_name, cmd_command in cmd_commands:
+                for job_name, cmd_command in cmd_commands:  # Unpacking the tuple
                     logging.info('*' * 50)
                     logging.info(f"Generated CMD: {cmd_command}")
                     logging.info('*' * 50)
@@ -236,6 +244,7 @@ class MrqRender:
             logging.error("Not found uproject path or movie_pipeline_config in ShotGrid")
 
         logging.info("Script execution finished")
+
 
 if __name__ == "__main__":
     render_job = MrqRender(

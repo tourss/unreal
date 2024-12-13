@@ -95,12 +95,27 @@ class MrqRender:
     def _get_and_set_resolution(self):
         # get_uasset_files에서 반환된 파일을 사용
         config_files = self.get_uasset_files()  # .uasset 파일 목록을 가져옵니다.
+        logging.info ("*"*50)
+        logging.info ("config_files")
+        logging.info (config_files)
+        logging.info ("*"*50)
+        logging.info ("*"*50)
         ue_config_paths = []  # ue_config_path를 저장할 리스트
+        logging.info ("*"*50)
+        logging.info ("ue_config_paths")
+        logging.info (ue_config_paths)
 
         if config_files:
             for config_file in config_files:
                 # 경로에서 역슬래시를 슬래시로 변환하고, .uasset 확장자를 제거
-                ue_config_path = config_file.replace("C:\\Users\\admin\\Desktop\\Project\\pipe_test\\Content\\", "/Game/").replace("\\", "/").replace(".uasset", "")
+                ue_config_path = config_file.replace("C:\\Users\\admin\\Desktop\\Project\\pipe_test\\Content\\", "/Game/")
+                ue_config_path = ue_config_path.replace("\\", "/")
+                ue_config_path = ue_config_path.replace(".uasset", "")
+                logging.info ("*"*50)
+                logging.info ("ue_config_path")
+                logging.info (ue_config_path)
+                logging.info ("*"*50)
+                logging.info ("*"*50)
                 
                 # Unreal Editor에서 MoviePipelineConfig의 해상도를 가져와 수정
                 pipeline_config_asset = unreal.EditorAssetLibrary.load_asset(ue_config_path)
@@ -121,8 +136,8 @@ class MrqRender:
                                     )
 
                                 # 해상도 변경
-                                new_width = 3960
-                                new_height = 2160
+                                new_width = 1260
+                                new_height = 720
                                 resolution_setting.output_resolution.x = new_width
                                 resolution_setting.output_resolution.y = new_height
 
@@ -136,12 +151,14 @@ class MrqRender:
                     # 변경 사항 저장
                     unreal.EditorAssetLibrary.save_asset(ue_config_path)
                     logging.info(f"Changes saved successfully for {ue_config_path}")
-                    logging.info(f"Final Resolution: {resolution_setting.output_resolution.x}x{resolution_setting.output_resolution.y}")
 
-                    # ue_config_path를 리스트에 추가
-                    ue_config_paths.append(ue_config_path)
-                else:
-                    logging.error(f"Failed to load queue asset: {ue_config_path}")
+                # ue_config_path를 리스트에 추가
+                ue_config_paths.append(ue_config_path)
+                logging.info ("*"*50)
+                logging.info ("ue_config_path")
+                logging.info ("*"*50)
+            else:
+                logging.error(f"Failed to load queue asset: {ue_config_path}")
         else:
             logging.warning("No .uasset files found.")
 
@@ -218,7 +235,7 @@ class MrqRender:
         if self.uproject_path and self.movie_pipeline_config:
             ue_config_paths = self._get_and_set_resolution()  # 해상도 설정 업데이트
 
-            if config_files:
+            if ue_config_paths:
                 cmd_commands = self.generate_cmd_command(config_files, ue_config_paths)  # 명령어 목록 생성
                 for job_name, cmd_command in cmd_commands:
                     logging.info('*' * 50)
